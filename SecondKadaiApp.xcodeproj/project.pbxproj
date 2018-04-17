@@ -12,6 +12,7 @@
 		73CE4958208600120032599E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73CE4956208600120032599E /* Main.storyboard */; };
 		73CE495A208600130032599E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73CE4959208600130032599E /* Assets.xcassets */; };
 		73CE495D208600130032599E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73CE495B208600130032599E /* LaunchScreen.storyboard */; };
+		73CE4965208600AF0032599E /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CE4964208600AF0032599E /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		73CE4959208600130032599E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73CE495C208600130032599E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73CE495E208600130032599E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73CE4964208600AF0032599E /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				73CE4952208600120032599E /* AppDelegate.swift */,
 				73CE4954208600120032599E /* ViewController.swift */,
+				73CE4964208600AF0032599E /* ResultViewController.swift */,
 				73CE4956208600120032599E /* Main.storyboard */,
 				73CE4959208600130032599E /* Assets.xcassets */,
 				73CE495B208600130032599E /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				73CE4955208600120032599E /* ViewController.swift in Sources */,
 				73CE4953208600120032599E /* AppDelegate.swift in Sources */,
+				73CE4965208600AF0032599E /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +287,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JA78BXXPZY;
 				INFOPLIST_FILE = SecondKadaiApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +306,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JA78BXXPZY;
 				INFOPLIST_FILE = SecondKadaiApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
